@@ -5,7 +5,7 @@ It detects faces from a webcam or a video file by simply changing one argument i
 
 Overview
 
-The Haar Cascade algorithm is a machine learning-based object detection method used to identify objects in images or videos.
+The Haar Cascade algorithm is a machine learning–based object detection method used to identify objects in images or videos.
 In this project, it is used to detect human faces in real time.
 
 Features
@@ -16,7 +16,7 @@ Fast and efficient performance
 
 Works with multiple faces in a single frame
 
-Lightweight and easy to set up
+Lightweight and easy to modify
 
 How It Works
 
@@ -37,19 +37,6 @@ Python 3
 OpenCV (cv2 library)
 
 Haar Cascade Classifier (haarcascade_frontalface_default.xml)
-
-Installation and Usage
-# 1. Clone this repository
-git clone https://github.com/YourUsername/face-detector.git
-
-# 2. Navigate to the project directory
-cd face-detector
-
-# 3. Install dependencies
-pip install opencv-python
-
-# 4. Run the script for webcam detection
-python face_detector.py
 
 Using a Video File Instead of Webcam
 
